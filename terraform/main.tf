@@ -14,3 +14,8 @@ resource "null_resource" "test" {
         build_number = "${timestamp()}"
     }
 }
+
+resource "random_pet" "name" {
+ length    = "8"
+ separator = "-"
+}
