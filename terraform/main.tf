@@ -4,7 +4,7 @@ terraform {
     organization = "berchevorg"
 
     workspaces {
-      name = "filesysyem-fail"
+      name = "filesystem-error"
     }
   }
 }
